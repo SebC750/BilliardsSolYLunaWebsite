@@ -1,9 +1,3 @@
-/* 
-This is where I set custom styling specifications for html tags. 
-This allows me to reuse html components without repeatedly setting the same attributes for each time a tag is used.
-*/
-
-
 span {
     margin-left: 10px;
     font-size: 32px;
