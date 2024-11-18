@@ -5,7 +5,7 @@ const Card = (props: { cardProps: HomeCard | MenuCard }) => {
             <div className="rounded-md flex flex-col flex-grow bg-transparent shadow-xl border-b-4 border-yellow-400 w-full mb-4 md:pb-0">
                 {"imageFile" in props.cardProps ? (
                     <figure>
-                        <img src={props.cardProps.imageFile} loading="lazy" className="transition-all h-56 object-cover w-full rounded-t-md cursor-pointer hover:p-2" />
+                        <img src={props.cardProps.imageFile} loading="lazy" className="transition-all h-72 object-cover w-full rounded-t-md cursor-pointer hover:p-2" />
                     </figure>
                 ) : null}
 

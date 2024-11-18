@@ -8,3 +8,6 @@
 html, body{
    background-color: black !important;
 }
+.btn{
+   @apply bg-yellow-400;
+}
